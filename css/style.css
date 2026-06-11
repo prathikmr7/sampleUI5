@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sapUiMediumMarginTop {
+    margin-top: 1rem;
+}
+
+.sapUiMediumMarginBottom {
+    margin-bottom: 1rem;
+}
+
+.sapUiContentPadding {
+    padding: 1rem;
+}
+
+/* Login and Signup Form Styles */
+.loginContainer {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+/* Home Page Styles */
+.homeContainer {
+    background: #f5f5f5;
+    min-height: 100vh;
+}
+
+/* Button Styles */
+button {
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
